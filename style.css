@@ -1,0 +1,297 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color:#f5f5f5;
+  
+  font-family: "Poppins", sans-serif;
+}
+
+header{
+  height: 500px;
+  background-color: #3400ff;
+}
+nav{
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.nav-item{
+  margin-right: 20px;
+  color: #fff;
+}
+.nav-item-active{
+  background-color: #fff;
+  padding: 5px;
+  border-radius:5px;
+  color: #5a31fc;
+  margin-right: 20px;
+  font-weight: 400;
+}
+.logo{
+  margin:20px ;
+ padding-left:30px ;
+}
+.header-text{
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 50px;
+  float: left;
+}
+.header-image{
+  float: right;
+}
+.companies{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.company-items{
+  text-decoration: none;
+  color:#000 ;
+  font-weight:600 ;
+  margin-left: 30px;
+}
+.api-heading{
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+  font-weight: 800;
+}
+.cards{
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card{
+  width: 20%;
+  height: 250px;
+  cursor: grab;
+  margin-right: 30px;
+}
+.card-active{
+  cursor: grab;
+  width: 20%;
+  height: 250px;
+  background-color:transparent;
+  margin-right: 30px;
+  box-shadow: 0px 5px 15px #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+.card-logo{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.card-head-active{
+  margin-left:30px ;
+}
+.card-head{
+  color: #000;
+  margin-left:30px ;
+}
+.card-body{
+  color: #000;
+  font-size: small;
+  margin-left: 30px;
+}
+.arrow{
+  margin-top: 60px;
+  cursor: grab;
+}
+.button-large-next
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:1px;
+  padding-bottom:1px;
+  color: white;
+  font-size: 60px;
+  background-color: #5a31fc;
+  border-radius: 80%;
+    
+}
+.blog-heading h1{
+  margin-top: 80px;
+  margin-left: 90px;
+}
+.blog-cards
+{
+  display: flex;
+  margin-left: 90px;
+  flex-direction: row;
+  justify-content:space-between;
+ 
+  margin-left: 90px;
+ 
+}
+ .blog-card{
+  height:285px;
+  width: 60%;
+  margin-right: 30px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0px 2px 9px #ddd;
+  border-top-left-radius: 50px;
+ 
+}
+.data{
+  margin-right:30px;
+  
+  margin-top: -300px;
+ float: right;
+}
+
+.blog-content small {
+  width: 200%;
+}
+.blog-content h6{
+  font-family: "Poppins", sans-serif;
+  color: #5a31fc
+}
+
+.blog-bottom{
+  display: block;
+  
+  margin-top: 10px;
+  margin-left: 40px;
+  bottom:0px;
+}
+.blog-author b{
+  margin-top: -60px;
+  margin-left: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  display: block;
+  position: absolute;
+  
+}
+.faq-section{
+  margin-top: 50px;
+  height:325px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e9edff;
+  
+}
+.faq-content{
+  margin-left: 90px;
+ 
+}
+.faq-content h2{
+  font-weight: 900;
+    font-size: 30px;
+}
+.faq-content h4{
+  font-size: 14px;
+  font-weight: 100;
+}
+.faq-content button{
+  
+    background-color: #3400ff;
+    padding: 5px;
+    border: transparent;
+    color:  #fff;
+    margin-right: 20px;
+    font-weight: 400;
+  
+}
+.faq-image{
+  margin:1px ;
+}
+
+.download-section{
+  margin-top: 120px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ width: 85%;
+ margin-left: 90px;
+ margin-right: 1px;
+ font-weight: bold;
+}
+.download-content{
+  font-weight: bold;
+}
+.download-email input{
+  background: #e9edff;
+    border: transparent;
+    height: 41px;
+    border-radius: 30px;
+    padding: 0px 10px 0px 25px;
+    color: #000;
+    min-width: 404px;
+}
+.download-email button{
+  background-color: #4718ff;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: #d3c9fd;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    margin-left: -115px;
+    cursor: grab;
+}
+.footer-section{
+  margin-top: 100px;
+  height: 300px;
+  background-color: #3400ff;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left{
+  margin-top: 80px;
+  margin-left: 90px;
+  margin-right: 20px;
+  
+  
+}
+.list{
+  list-style: none;
+ 
+  margin-left:1px;
+  padding-left: 0;
+}
+.list-items{
+  display: inline-block;
+  padding-right: 20px;
+  margin-top: 20px;
+  cursor: grab;
+  color:white;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  border-right: solid 1px #d3c9fd;
+}
+.forums{
+  border-right:none
+}
+.footer-right{
+  margin-top:80px;
+  
+  margin-right: 1px;
+ 
+}
+.footer-right-logos{
+  cursor: grab;
+  margin:1px ;
+  margin-left: 50px;
+}
+.footer-right-logos img{
+  margin-top: 1px;
+  
+  padding-right: 10px;
+  left: 400px;
+}
+.logos-list{
+  
+  margin-right: 15px;
+}
