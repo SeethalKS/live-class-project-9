@@ -299,14 +299,14 @@ nav{
   body{
     background-color: #F2F2F2;
     width: 100wh;
-    overflow-x: hidden;
+    
   }
 
   header{
     display: inline-block;
     height: 800px;
    width: 100%;
-
+   padding: 80px 80px 50px;
   }
   .logo{
    
@@ -388,9 +388,17 @@ nav{
   text-align: center;
 }
 .faq-section{
-  margin-top: 700px;
+  margin-top:500px;
   flex-direction: column-reverse;
   
+}
+.faq-image{
+ 
+  background-color: #e9edff;
+}
+.faq-image img{
+  
+  height: 150px;
 }
 .download-section{
   margin-top: 50px;
@@ -414,6 +422,7 @@ nav{
  flex-direction: column;
  align-items: center;
   justify-content: space-between;
+  padding: 80px 80px 50px;
 }
 .list{
   display: flex;
