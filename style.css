@@ -296,7 +296,9 @@ nav{
   margin-right: 15px;
 }
 @media (max-width:600px){
-  
+  body{
+    background-color:rgba(128, 128, 128, 0.10) ;
+  }
 
   header{
     display: inline-block;
@@ -330,7 +332,7 @@ nav{
     height: 300px;
   }
   .companies{
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -404,7 +406,7 @@ nav{
   height: 150px;
 }
 .download-section{
-  margin-top: 50px;
+  margin-top: 70px;
   width: 35%;
   font-size: 10px;
   flex-direction: column;
@@ -412,7 +414,7 @@ nav{
 .download-content{
   margin-top: 50px;
   font-size: 10px;
- 
+  margin-left: -35px;
 }
 .download-email input{
     padding: 0px 3px 0px 5px;
