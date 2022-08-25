@@ -295,7 +295,7 @@ nav{
   
   margin-right: 15px;
 }
-@media (max-width:920px){
+@media (max-width:720px){
   body{
     background-color: #F2F2F2;
     width: 100wh;
