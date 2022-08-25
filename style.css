@@ -295,12 +295,8 @@ nav{
   
   margin-right: 15px;
 }
-@media (max-width:720px){
-  body{
-    background-color: #F2F2F2;
-   
-    
-  }
+@media (max-width:600px){
+  
 
   header{
     display: inline-block;
