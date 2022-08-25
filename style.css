@@ -414,6 +414,11 @@ nav{
   font-size: 10px;
  
 }
+.download-email input{
+    padding: 0px 3px 0px 5px;
+    color: #000;
+    min-width: 290px;
+}
 .download-email{
   margin-left: 100px;
   padding: 0px 5px 0px 15px;
