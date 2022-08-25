@@ -309,7 +309,7 @@ nav{
   .logo{
    
     margin-top:20px;
-    margin-left: -180px;
+    margin-left: -200px;
     float: left;
    
   }
@@ -393,13 +393,13 @@ nav{
   text-align: center;
 }
 .faq-section{
-  margin-top:500px;
+  margin-top:400px;
   flex-direction: column-reverse;
-  
+  height: 450px;
 }
 .faq-image{
- 
-  background-color: #e9edff;
+  margin-left: 100px;
+  height: 20px;
 }
 .faq-image img{
   
@@ -432,7 +432,7 @@ nav{
  flex-direction: column;
  align-items: center;
   justify-content: space-between;
-  /* padding: 40px 800px 50px 0px; */
+  
 }
 .list{
   display: flex;
